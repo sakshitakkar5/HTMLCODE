@@ -1,2 +1,4 @@
 *.log
 static/dir
+new_file.txt
+hello_rename.txt
