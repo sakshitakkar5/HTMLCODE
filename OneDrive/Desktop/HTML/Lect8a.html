@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td,th{
+
+            border: 4px blue solid;
+            /* border-collapse: collapse; */
+            height: 50px;
+            padding: 10px;
+            text-align: center;
+            color: red;
+            font-size: 30px;
+            /* background-color: aqua; */
+            /* border-bottom: 3px solid black; */
+            border-radius: 10px;
+            border-spacing: 30px;
+
+        }
+        tr{
+            background-color: beige;
+        }
+        /* tr:nth-child(even){
+            background-color: lightblue;
+        } */
+        table{
+            width: 100%;
+            /* background-image: url("bluebg.jpg"); */
+            
+        }
+         tr:hover{
+            background-color: yellow;
+            font-size: 50px;
+        } 
+
+       
+        
+
+    </style>
+</head>
+<body>
+   
+    <!-- <table border="18" cellpadding="10" cellspacing="15" bordercolor="darkviolet" bgcolor="pink"> -->
+    <table>
+        <caption>Marks Table</caption>
+        <thead>
+            <tr>
+            <th>Name</th>
+            <th colspan="2">Marks</th>
+            <th>Total Marks</th>
+            <th>Grade</th>
+            </tr>
+        </thead>
+        
+
+        <tbody>
+            <tr>
+                <td rowspan="3">Abhay</td>
+                <td>CA1</td>
+                <td>95</td>
+                <td rowspan="3">273</td>
+                <td rowspan="3">A</td>
+            </tr>
+
+            <tr>
+                <td>CA2</td>
+                <td>100</td>
+            </tr>
+
+            <tr>
+                <td>Project</td>
+                <td>78</td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">Ria</td>
+                <td>CA1</td>
+                <td>95</td>
+                <td rowspan="3">263</td>
+                <td rowspan="3">A</td>
+            </tr>
+
+            <tr>
+                <td>CA1</td>
+                <td>98</td>
+            </tr>
+            <tr>
+                <td>Project</td>
+                <td>70</td>
+            </tr>
+
+
+
+        </tbody>
+    </table>
+</body>
+</html>

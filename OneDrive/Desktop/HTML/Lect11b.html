@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.write("<h1>The if statement</h1><br>");
+            
+
+            if(5>2){
+                document.write("5 is greater");
+            }
+
+        document.write("<h1>The switch statement</h1><br>")
+        
+        var a=3;
+        switch(a){
+
+            case 1: 
+            document.write("Case 1 is executed");
+           
+
+            case 2:
+            document.write("Case 2 is executed");
+            break;
+            case 3:
+            document.write("Case 3 is executed");
+            
+
+            case 4:
+            document.write("Case 4 is executed");
+            
+
+            default:
+            document.write("Default case is executed");
+            break;
+
+            
+        }
+
+
+        // document.write("<h1>Alert Box Example</h1><br>");
+
+        //     alert("The Alert box example")
+
+        // document.write("<h1>Confirm Box Example</h1><br>");
+
+        // var val=confirm("Click OK to continue");
+
+        // if(val==true)
+        // {
+        //     document.write("OK is clicked");
+        
+        // }
+        // else{
+        //     document.write("Cancel is clicked");
+        // }
+
+        document.write("<h1>Prompt Box Example</h1><br>");
+
+        var n1=parseInt(prompt("Enter any number 1",56));
+        var n2=parseInt(prompt("Enter number 2"));
+        var a=n1+n2;
+        alert(n1+n2);
+        // document.getElementById("para1").innerHTML=a;
+        document.write(n1+n2);
+        
+        document.write("<h1>for loop</h1><br>")
+
+        for(var i=1;i<=10;i++){
+            document.write(i+"<br>");
+        }
+
+        document.write("<h1>while loop</h1><br>");
+
+        var j=2;
+        while(j<=20)
+        {
+
+            document.write(j+"<br>");
+            j++;
+        }
+
+        document.write("<h1>do while loop</h1><br>");
+        var k=3;
+        do{
+
+            
+            document.write(k);
+            k++;
+
+        }while(k<=10);
+
+        document.write("<h1>Continue Statement</h1><br>");
+
+        for(var i=1;i<=10;i++){
+            
+            if(i==6)
+        {
+            break;
+        }
+
+        document.write(i+"<br>");
+        }
+
+
+
+
+
+    </script>
+</head>
+<body>
+
+    <p id="para1"></p>
+    
+
+</body>
+</html>
